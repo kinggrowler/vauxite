@@ -18,48 +18,36 @@ modules:
       - btop
       - catfish
       - edk2-ovmf
+      - fastfetch
+      - gdb
+      - gdk-pixbuf2-modules-extra # Fix taskbar icons for Xfce 4.20
+      - iotop
+      - libcanberra
+      - libcanberra-gtk3
+      - libinput
       - libvirt
       - libvirt-nss
-      - libcanberra-gtk3
       - lightdm-gtk-greeter-settings
       - mate-disk-usage-analyzer
       - mate-system-monitor
+      - menulibre
       - neovim
       - orage
       - patch
+      - plymouth-plugin-script
       - podman-compose
       - podman-machine
       - python3-cairosvg
-      - plymouth-plugin-script
-      - qemu-char-spice
-      - qemu-device-display-virtio-gpu
-      - qemu-device-display-virtio-vga
-      - qemu-device-usb-redirect
-      - qemu-img
-      - qemu-system-x86-core
-      - qemu-user-binfmt
-      - qemu-user-static
-      - qemu
-      - podman-compose
-      - podman-machine
-      - qemu-char-spice
-      - qemu-device-display-virtio-gpu
-      - qemu-device-display-virtio-vga
-      - qemu-device-usb-redirect
-      - qemu-img
-      - qemu-system-x86-core
-      - qemu-user-binfmt
-      - qemu-user-static
-      - qemu
-      - strace
-      - virt-manager
-      - fastfetch
-      - gdb
-      - iotop
-      - libcanberra
-      - libinput
-      - menulibre
       - python3-ramalama
+      - qemu
+      - qemu-char-spice
+      - qemu-device-display-virtio-gpu
+      - qemu-device-display-virtio-vga
+      - qemu-device-usb-redirect
+      - qemu-img
+      - qemu-system-x86-core
+      - qemu-user-binfmt
+      - qemu-user-static
       - ruby
       - skippy-xd
       - strace
@@ -67,9 +55,9 @@ modules:
       - ublue-brew
       - ublue-fastfetch
       - ublue-os-libvirt-workarounds
+      - virt-manager
       - xdotool
-      # Fix taskbar icons for Xfce 4.20
-      - gdk-pixbuf2-modules-extra
+      - xev
     remove:
       - firefox
       - firefox-langpacks

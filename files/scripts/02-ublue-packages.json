@@ -20,6 +20,7 @@
                 "fuse-encfs",
                 "fuse-sshfs",
                 "fzf",
+                "git-credential-libsecret",
                 "google-noto-sans-balinese-fonts",
                 "google-noto-sans-cjk-fonts",
                 "google-noto-sans-javanese-fonts",

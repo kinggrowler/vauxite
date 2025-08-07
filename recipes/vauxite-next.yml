@@ -28,6 +28,7 @@ modules:
       - ublue-brew
       - ublue-fastfetch
       - xdotool
+      - xev
     remove:
       - firefox
       - firefox-langpacks
