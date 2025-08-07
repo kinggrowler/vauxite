@@ -5,8 +5,10 @@ set -ouex pipefail
 # TODO: use systemd-tmpfiles for this
 echo "KillUserProcesses=yes" >>/usr/lib/systemd/logind.conf
 
-curl -L -o /usr/bin/xfconf-profile https://github.com/winblues/xfconf-profile/releases/latest/download/xfconf-profile-linux-amd64
-chmod +x /usr/bin/xfconf-profile
+# this script from winblues no longer works, erroring with:
+# Error initializing Xfconf: xml: unsupported version "1.1"; only version 1.0 is supported
+#curl -L -o /usr/bin/xfconf-profile https://github.com/winblues/xfconf-profile/releases/latest/download/xfconf-profile-linux-amd64
+#chmod +x /usr/bin/xfconf-profile
 
 curl -L -o /usr/bin/chezmoi https://github.com/twpayne/chezmoi/releases/latest/download/chezmoi-linux-amd64
 chmod +x /usr/bin/chezmoi

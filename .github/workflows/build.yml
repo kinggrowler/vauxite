@@ -29,8 +29,8 @@ jobs:
       matrix:
         recipe:
           - vauxite.yml
-          - vauxite-base.yml
-          - vauxite-minimal.yml
+          #- vauxite-base.yml
+          #- vauxite-minimal.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
