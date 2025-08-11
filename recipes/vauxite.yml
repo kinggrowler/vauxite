@@ -77,7 +77,21 @@ modules:
         scope: system
         # Flathub will be used by default
         install:
+          - com.calibre_ebook.calibre
+          - com.github.iwalton3.jellyfin-media-player
+          - com.github.johnfactotum.Foliate
+          - com.github.tchx84.Flatseal
+          - com.nextcloud.desktopclient.nextcloud
+          - io.github.flattool.Warehouse
+          - org.fedoraproject.MediaWriter
+          - org.gnome.seahorse.Application
+          - org.kde.gwenview
+          - org.kde.okular
+          - org.keepassxc.KeePassXC
+          - org.libreoffice.LibreOffice
           - org.mozilla.firefox
+          - org.qownnotes.QOwnNotes
+          - org.videolan.VLC
 
 #  - type: containerfile
 #    snippets:
