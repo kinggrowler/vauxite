@@ -52,6 +52,7 @@
                 "pipewire-libs-extra",
                 "pipewire-plugin-libcamera",
                 "powerstat",
+                "redshift",
                 "redshift-gtk",
                 "screen",
                 "smartmontools",
