@@ -34,7 +34,7 @@ modules:
       - neovim
       - orage
       - patch
-      - plymouth-plugin-script
+      #- plymouth-plugin-script
       - podman-compose
       - podman-machine
       - python3-cairosvg
@@ -92,14 +92,6 @@ modules:
           - org.mozilla.firefox
           - org.qownnotes.QOwnNotes
           - org.videolan.VLC
-
-#  - type: containerfile
-#    snippets:
-#    - 'LABEL io.artifacthub.package.readme-url=https://raw.githubusercontent.com/winblues/vauxite/refs/heads/main/README.md'
-#    - 'LABEL io.artifacthub.package.logo-url=https://avatars.githubusercontent.com/u/200125887?s=200&v=4'
-#    - 'LABEL io.artifacthub.package.deprecated=false'
-#    - 'LABEL io.artifacthub.package.keywords=bootc,fedora,aurora,ublue,universal-blue'
-#      #- 'LABEL io.artifacthub.package.maintainers=[{\"name\": \"ledif\", \"email\": \"adam@fidel.cloud\"}]'
 
   - type: signing
 
