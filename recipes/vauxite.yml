@@ -61,6 +61,14 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
+      - plymouth
+      - plymouth-core-libs
+      - plymouth-graphics-libs
+      - plymouth-plugin-label
+      - plymouth-plugin-two-step
+      - plymouth-scripts
+      - plymouth-system-theme
+      - plymouth-theme-spinner
 
   - type: script
     scripts:
