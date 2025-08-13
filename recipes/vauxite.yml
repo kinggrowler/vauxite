@@ -34,7 +34,6 @@ modules:
       - neovim
       - orage
       - patch
-      #- plymouth-plugin-script
       - podman-compose
       - podman-machine
       - python3-cairosvg
@@ -81,7 +80,7 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: true # Send notification after install/uninstall is finished
+      - notify: false # Do NOT send notification after install/uninstall is finished
         scope: system
         # Flathub will be used by default
         install:
