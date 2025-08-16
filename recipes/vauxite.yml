@@ -30,6 +30,7 @@ modules:
       - lightdm-gtk-greeter-settings
       - mate-disk-usage-analyzer
       - mate-system-monitor
+      - mbpfan # Move to a MBP only build
       - menulibre
       - neovim
       - orage
