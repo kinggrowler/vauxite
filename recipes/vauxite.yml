@@ -81,7 +81,7 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: false # Do NOT send notification after install/uninstall is finished
+      - notify: true # Send notification after install/uninstall is finished
         scope: system
         # Flathub will be used by default
         install:
